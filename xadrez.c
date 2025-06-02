@@ -56,12 +56,17 @@ int main() {
         contadorRainha++;
     } while (contadorRainha <= casasRainha);
 
-    // -Movimento da Torre
-    int casasTorre = 5;
-    printf("Movimento da Torre:\n");
-
-    for (int i = 1; i <= casasTorre; i++) {
-        printf("Direita\n");
+    // -Movimento do Cavalo
+    printf("\nMovimento do Cavalo:\n");
+    for (int i = 1; i <= 2; i++) {
+        printf("Baixo\n");
+        int j = 1;
+        while (j <= 1) {
+            if (i == 2) { 
+                printf("Esquerda\n");
+            }
+            j++;
+        }
     }
 
     return 0;
