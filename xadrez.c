@@ -46,5 +46,15 @@ int main() {
         contadorBispo++;
     }
 
+    // -Movimento da Rainha
+    int casasRainha = 8;
+    int contadorRainha = 1;
+    printf("\nMovimento da Rainha:\n");
+
+    do {
+        printf("Esquerda\n");
+        contadorRainha++;
+    } while (contadorRainha <= casasRainha);
+
     return 0;
 }
